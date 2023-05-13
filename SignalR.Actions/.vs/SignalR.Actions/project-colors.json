@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "76dbb27e-f1e6-4a62-b3a6-dd4deea7a6ba": {
+      "ProjectGuid": "76dbb27e-f1e6-4a62-b3a6-dd4deea7a6ba",
+      "DisplayName": "SignalR.Actions",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
