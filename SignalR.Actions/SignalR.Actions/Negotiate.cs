@@ -23,6 +23,7 @@ namespace SignalR.Actions
             _logger = log;
         }
 
+        // Change Azure SignalR mode to Serverless!!!
         [FunctionName("negotiate")]
         public static async Task<IActionResult> Run(
                     [HttpTrigger(AuthorizationLevel.Function, "post", Route = "negotiate")] HttpRequest req,

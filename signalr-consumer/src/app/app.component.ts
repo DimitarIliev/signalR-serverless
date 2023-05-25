@@ -21,4 +21,8 @@ export class AppComponent implements OnInit {
       this.message = message;
     });
   }
+
+  BroadcastData(): void {
+    this._signalRService.BroadcastData();
+  }
 }
